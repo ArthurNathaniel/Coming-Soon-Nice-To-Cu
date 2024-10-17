@@ -14,6 +14,8 @@
     <meta property="og:type" content="restaurant">
     <meta property="og:locale" content="en_GH">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png" sizes="180x180" type="image/jpeg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/logo.png">
     <link rel="stylesheet" href="./css/base.css">
 </head>
 
@@ -28,7 +30,7 @@
     </div>
     <div class="notify">
         <form id="notifyForm" action="notify.php" method="POST">
-            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="email" name="email" placeholder="Enter your email address" required>
             <button type="submit">Notify</button>
         </form>
     </div>
